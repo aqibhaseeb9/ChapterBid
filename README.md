@@ -17,7 +17,7 @@ ChapterBid is a responsive web application that allows users to post used books 
 ## 📁 Project Structure
 
 ```text
-Booktype/
+ChapterBid/
 ├── public/
 │   └── uploads/                # Uploaded book photographs (served statically)
 ├── src/
