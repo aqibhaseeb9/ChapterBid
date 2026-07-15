@@ -1,6 +1,6 @@
 # ChapterBid — Used Book Marketplace (PoC)
 
-ChapterBid is a responsive Proof of Concept (PoC) web application that allows users to post used books for sale, browse listings, and place bids. It features a clean, premium indigo/violet design system with smooth animations, dark mode support, and a polished split-layout bidding experience.
+ChapterBid is a responsive web application that allows users to post used books for sale, browse listings, and place bids. It features a clean, premium indigo/violet design system with smooth animations, dark mode support, and a polished split-layout bidding experience.
 
 ---
 
@@ -94,13 +94,13 @@ npm run dev
 Then open [http://localhost:3000](http://localhost:3000).
 
 ### 3. Seed data
-On first run, `marketplace.db` is created automatically and seeded with **3 sample book listings** complete with descriptions, cover images, and initial bids — no manual setup needed.
+On first run, `marketplace.db` is created automatically and seeded with **4 sample book listings** complete with descriptions, cover images, and initial bids — no manual setup needed.
 
 ---
 
 ## 🗃️ Viewing / Editing the Database
 
-The database is a single file: `marketplace.db` in the project root. Since it's SQLite (not SQL Server), you can't use SSMS. Instead:
+The database is a single file: `marketplace.db` in the project root. Since it's SQLite:
 
 | Tool | How |
 |---|---|
