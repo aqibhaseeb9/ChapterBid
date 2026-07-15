@@ -40,10 +40,3 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# SQLite database (auto-generated on first run, contains runtime data)
-marketplace.db
-
-# Uploaded book images (runtime user content, not source code)
-# Remove this line if you want to keep the seed cover images in the repo
-/public/uploads/*
-!/public/uploads/.gitkeep
