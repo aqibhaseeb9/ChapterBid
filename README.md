@@ -38,7 +38,9 @@ ChapterBid/
 │   │   ├── layout.js                  # Root layout with sticky header & footer
 │   │   └── page.js                    # Homepage — hero search, book grid
 │   └── lib/
-│       └── db.js                      # SQLite init, schema creation & seed data
+│       └── db.js                      # Opens SQLite connection, runs schema.sql & seed.sql
+├── schema.sql                  # Database schema — table definitions (Book, BookImage, Bid)
+├── seed.sql                    # Sample dataset — 3 books with images and bids
 ├── marketplace.db              # SQLite database file (auto-generated on first run)
 ├── package.json
 └── README.md
@@ -94,7 +96,7 @@ npm run dev
 Then open [http://localhost:3000](http://localhost:3000).
 
 ### 3. Seed data
-On first run, `marketplace.db` is created automatically and seeded with **4 sample book listings** complete with descriptions, cover images, and initial bids — no manual setup needed.
+On first run, `marketplace.db` is created automatically and seeded with **3 sample book listings** (defined in `seed.sql`) complete with descriptions, cover images, and initial bids — no manual setup needed.
 
 ---
 
