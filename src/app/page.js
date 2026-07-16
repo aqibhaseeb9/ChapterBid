@@ -80,14 +80,6 @@ export default function HomePage() {
           Showing <span className="font-bold text-slate-700 dark:text-slate-200">{books.length}</span> {books.length === 1 ? 'book' : 'books'}
           {search && <span className="ml-1 text-indigo-500 dark:text-indigo-400">for &ldquo;{search}&rdquo;</span>}
         </p>
-        {search && (
-          <button
-            onClick={() => { setSearch(''); fetchBooks(''); }}
-            className="text-xs font-semibold text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-200"
-          >
-            Clear ✕
-          </button>
-        )}
       </div>
 
       {/* Book Grid */}
