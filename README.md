@@ -1,4 +1,4 @@
-# ChapterBid — Used Book Marketplace (PoC)
+# ChapterBid — Used Book Marketplace
 
 ChapterBid is a responsive web application that allows users to post used books for sale, browse listings, and place bids. It features a clean, premium indigo/violet design system with smooth animations, dark mode support, and a polished split-layout bidding experience.
 
